@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        .container {
+
+            width: 301px;
+            height: 400px;
+            border: 2px solid;
+            border-radius: 8px;
+            margin-top: 80px;
+            margin-left: 80px;
+            overflow: hidden;
+            z-index: 2;
+
+        }
+
+        .container img {
+
+            width: 300px;
+            height: 180px;
+            transition: 1s all ease;
+            background-position: center;
+            background-size: cover;
+
+
+
+        }
+
+        #butonum {
+            width: 100px;
+            height: 30px;
+            border-radius: 15px;
+            margin-left: 10px;
+            background-color: gray;
+            color: white;
+            border-style: none;
+            text-align: center;
+        }
+
+        .container:hover img {
+
+            transform: scale(1 , 1.2);
+            background-size: 50px;
+            overflow: hidden;
+        }
+
+        .container:hover {
+
+            box-shadow: 1px 1px 10px black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200203200336/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png"
+            alt="">
+          <br>  
+        <h3 style="padding-left: 12px ; width: bold;">Web Development</h3>
+        <p style="padding-left: 10px ;">With a simple definition, Web Developer is the general title given to people who
+            specialize in web developer,
+            World-Wide-Web (WWW) design and applications.</p>
+
+        <button type="button" id="butonum">Learn more</button>
+
+    </div>
+
+</body>
+
+</html>

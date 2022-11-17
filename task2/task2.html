@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+
+</head>
+
+
+
+<style>
+    .hid {
+
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        margin-top: 150px;
+        margin-left: 390px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+
+
+    .bodi {
+        position: absolute;
+        width: 60px;
+        height: 250px;
+        margin-top: 30px;
+        margin-left: 390px;
+        border-radius: 10px;
+        background-color: black;
+
+    }
+
+    .leftqol {
+
+        width: 15px;
+        height: 270px;
+        background-color: black;
+        margin-top: 30px;
+        margin-left: 368px;
+        border-radius: 2px;
+    }
+
+    .rightqol {
+
+        width: 15px;
+        height: 270px;
+        background-color: black;
+        margin-left: 460px;
+        margin-top: -270px;
+        border-radius: 2px;
+        animation-name: ishle;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        
+    }
+
+    .leftqic {
+
+        width: 11px;
+        height: 250px;
+        background-color: black;
+        margin-left: 395px;
+
+    }
+
+    .rightqic {
+
+        width: 11px;
+        height: 250px;
+        background-color: black;
+        margin-left: 430px;
+        margin-top: -250px;
+
+    }
+
+    @keyframes ishle {
+
+        0% {
+
+            transform-origin: top left;
+            transform: rotate(0deg);
+
+
+        }
+
+        50% {
+
+            transform-origin: top left;
+            transform: rotate(-180deg);
+
+        }
+
+        100% {
+
+            transform-origin: top left;
+            transform: rotate(0deg);
+
+
+        }
+
+    }
+</style>
+
+
+
+<body>
+
+
+    <div class="hid">
+        <div class="eye1"></div>
+        <div class="eye2"></div>
+        <div class="agiz"></div>
+    </div>
+    <div class="bodi"></div>
+    <div class="leftqol"></div>
+    <div class="rightqol"></div>
+    <div class="leftqic"></div>
+    <div class="rightqic"></div>
+
+
+</body>
+
+</html>
